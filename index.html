@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.svg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Inicío</a></li>
+                <li><a href="#about">O Desenvolvedor</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">O Desenvolvedor</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </header>
+    
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a target="_blank" href="https://www.instagram.com/gui__89/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a target="_blank" href="https://www.facebook.com/guilherme.guigasalves/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a target="_blank" href="https://github.com/Gui-89"><ion-icon name="logo-github"></ion-icon></a>
+                <a target="_blank" href="https://www.linkedin.com/in/guiasilva/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5561991859887&text=FA%C3%87A%20SUA%20PERGUNTA"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1>Creative</h1>
+                <h2>Developer</h2>
+                <h3>Front End Developer</h3>
+            </div>
+        </div>
+    </main>
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>Guilherme Alves</h1>
+                <p>Front-End developer em construção, em processo de especialização: HTML, CSS e Javascript. <br> 
+                Estudante das tecnologias: Angular, ReactJS, React Native, Node.js, Elixir, design responsivo, web mobile. </p>
+                <div class="box-title">
+                    <p>90%</p>
+                    <div class="b1"><div class="b2"></div></div>
+                    <span>HTML</span>
+
+                    <p>80%</p>
+                    <div class="b1"><div class="b3"></div></div>
+                    <span>CSS</span>
+
+                    <p>50%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section id="port">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/01.png" alt="">
+                    <h1>Web</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, reiciendis. Corporis iste officiis necessitatibus at aliquid suscipit aut nesciunt nam ab temporibus. Beatae eligendi cumque, iste omnis ducimus nesciunt quod!</p>
+                    <button>Hire me</button>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/02.png" alt="">
+                    <h1>Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, reiciendis. Corporis iste officiis necessitatibus at aliquid suscipit aut nesciunt nam ab temporibus. Beatae eligendi cumque, iste omnis ducimus nesciunt quod!</p>
+                    <button>Hire me</button>
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="image/03.png" alt="">
+                    <h1>Studio</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, reiciendis. Corporis iste officiis necessitatibus at aliquid suscipit aut nesciunt nam ab temporibus. Beatae eligendi cumque, iste omnis ducimus nesciunt quod!</p>
+                    <button>Hire me</button>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>Entre em contato</h1>
+                    <div class="linha1"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>guigas83@gmail.com</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+55 61 98315-6915</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Brasília,Brasil</span>
+                </div>
+                <div class="contact-right">
+                    <h1>PREENCHA O FORMULÁRIO</h1>
+                    <div class="linha2"></div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Nome">
+                    <textarea placeholder="Mensagem"></textarea>
+                </div>
+               </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright© 2022 <a href="">Guilherme Alves</a> All Rights Reserved </span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html> 
+
