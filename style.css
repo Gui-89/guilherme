@@ -65,7 +65,7 @@ header .btn-mobile{
     flex-direction: column;
     justify-content: center;
     margin-top: 60px;
-    padding: 0 60px;
+    padding: 0 30px;
     position: fixed;
     z-index: 999;
 }
@@ -284,7 +284,7 @@ header .btn-mobile{
     width: 80%;
     height: 60vh;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 150px 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -521,7 +521,46 @@ footer a{
     
 
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 550px){
+    header{
+        padding: 10px;
+    }
+    #home .container .title h1{
+        letter-spacing: 10px;
+        font-size: 60px;
+        margin-left: 50px;
+    }
+    }
+    #home .container .title h2{
+        letter-spacing: 15px;
+    }
+    #home .container .title h3{
+        letter-spacing: 5px;
+        margin-left: 60px;
+    }
+    #about .container .title h1{
+        font-size: 30px;
+        text-align: justify;
+    }
+    #about .container .title{
+        padding: 10px 60px;
+        font-size: 12px;
+    }
+    #about .container .title p{
+        width: 100%;
+        margin-top: 30px;
+        font-size: 12px;
+        text-align: justify;
+    }
+   #port .container .card{
+       width: 60%;
+       height: 70%;
+   }
+   #port .container .card h1{
+       font-size: 55px;
+   }
+}
+@media screen and (min-width: 350px){
     header{
         padding: 10px;
     }
